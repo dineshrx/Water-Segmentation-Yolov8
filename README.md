@@ -1,37 +1,33 @@
-{
-  "title": "Water Segmentation",
-  "image": "https://example.com/water_segmentation_example.png",
-  "description": "Water Segmentation is a project aimed at segmenting water bodies such as lakes, pools, rivers, etc., from images using YOLOv8 and Roboflow.",
-  "features": [
-    "Automatic detection and segmentation of water bodies in images.",
-    "Customizable and extensible architecture built on YOLOv8.",
-    "Easily deployable for various applications including environmental monitoring, urban planning, and more."
-  ],
-  "installation": {
-    "steps": [
-      "Clone this repository: `git clone https://github.com/yourusername/water-segmentation.git`",
-      "Install dependencies: `pip install -r requirements.txt`"
-    ]
-  },
-  "usage": {
-    "steps": [
-      "Prepare your dataset of images containing water bodies. You can use datasets from [Roboflow](https://roboflow.com/) for this purpose.",
-      "Train the model using YOLOv8 and Roboflow: `python train.py --dataset /path/to/roboflow_dataset --epochs 100 --batch-size 8`",
-      "Once trained, use the model to segment water from images: `python segment.py --image /path/to/image.jpg`"
-    ]
-  },
-  "contributing": "Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.",
-  "license": "This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).",
-  "acknowledgments": [
-    {
-      "name": "YOLOv8",
-      "link": "https://github.com/ultralytics/yolov5",
-      "description": "for object detection."
-    },
-    {
-      "name": "Roboflow",
-      "link": "https://roboflow.com/",
-      "description": "for dataset preprocessing and augmentation."
-    }
-  ]
-}
+# Water Segmentation
+
+![Example of Water Segmentation](https://example.com/water_segmentation_example.png)
+
+Water Segmentation is a project aimed at segmenting water bodies such as lakes, pools, rivers, etc., from images using YOLOv8 and Roboflow.
+
+## Features
+
+- Automatic detection and segmentation of water bodies in images.
+- Customizable and extensible architecture built on YOLOv8.
+- Easily deployable for various applications including environmental monitoring, urban planning, and more.
+
+## Requirements
+The Entire project is worked in the pycharm environment. Before using this project, ensure that you have the following dependencies installed:
+
+- YOLO Pre-trained Weights
+- Roboflow
+- Pycharm 
+- Custom Water Dataset from Roboflow
+- GPU (for high quality results)
+
+Required Dependencies such as : 
+* ultralytics
+
+## Customization
+The steps below can be used to adapt the YOLO model for particular object classes:
+
+- A dataset of your object classes with labeled annotations should be gathered.
+
+- Utilizing your dataset, create a unique YOLO model specifically for water segmentation. 
+
+## Performance
+The system has been optimized for real-time performance, particularly when a GPU is used. However, actual performance may vary depending on your system configuration and the task's complexity. To attain the greatest results, consider fine-tuning the system for your individual use case.
