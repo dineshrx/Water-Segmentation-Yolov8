@@ -3,7 +3,7 @@ from google.colab import drive
 drive.mount('/content/gdrive')
 
 #  installing Yolov8 and its Dependencies
-%pip install ultralytics
+!pip install ultralytics
 import ultralytics
 ultralytics.checks() # To check Yolo Version
 
