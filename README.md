@@ -15,7 +15,7 @@ This project aims to perform water segmentation using YOLOv8, an advanced object
 ## Requirements
 The Entire project is worked in the pycharm environment. Before using this project, ensure that you have the following dependencies installed:
 
-- YOLO Pre-trained Weights
+- YOLOv8
 - Roboflow
 - Google Colab
 - Pycharm 
