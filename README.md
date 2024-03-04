@@ -1,6 +1,6 @@
 # Water Segmentation
 
-![Example of Water Segmentation](https://example.com/water_segmentation_example.png)
+![water](https://github.com/dineshrx/Water-Segmentation---Yolov8/assets/144202549/e85c21c9-0d3e-431b-9c7e-5d1b557a0c9b)
 
 Water Segmentation is a project aimed at segmenting water bodies such as lakes, pools, rivers, etc., from images using YOLOv8 and Roboflow.
 
