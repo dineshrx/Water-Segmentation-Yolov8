@@ -1,1 +1,1 @@
-# Water-Segmentation---Yolov8
+# Water-Segmentation-Yolov8
